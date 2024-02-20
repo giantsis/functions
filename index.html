@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    function add7(number){
+      return number +7;
+    }
+    let ex1=8;
+    
+    console.log(add7(ex1));
+    
+
+    function multiply(number1,number2){
+      return number1*number2;
+    }
+    let ex2_1=8;
+    let ex2_2=8;
+    console.log(multiply(ex2_1,ex2_2));
+    
+    function capitalize(sentence){
+          
+      return sentence[0].toUpperCase() + sentence.substr(1,sentence.length -1);
+      
+    }
+
+    let stn=prompt("Give a sentence?");
+    console.log(capitalize(stn));
+  
+   function lastLetter(string){
+
+    return string[string.length-1];
+    
+   }
+
+   let string=prompt("Give a word?");
+  console.log(lastLetter(string));
+  
+  
+  </script>
+</body>
+</html>
